@@ -9,7 +9,7 @@
     "react": "15.2.0",
     "react-dom": "^15.2.0",
     "react-native": "0.30.0",
-    "react-native-swipeout": "^2.0.12",
+    "react-native-swipeout": "https://github.com/kuss/react-native-swipeout.git",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2"
   }
