@@ -38,12 +38,12 @@ let AddItem = ({dispatch}) => {
                     onChangeText={_callChangeText}
                     value={input}
                     onSubmitEditing={_callAddItem}
+                    style={{flex:1,backgroundColor:'#ededed',height:47}}
                     />
             </View>
             <View>
                 <TouchableElement
                     onPress={_callAddItem}
-                    background={TouchableElement.SelectableBackground() }
                     >
                     <View style={{backgroundColor: 'gray' }}>
                         <Text style={{ margin: 15, color: 'white' }}>Add</Text>
